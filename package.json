@@ -1,0 +1,31 @@
+{
+  "name": "verbose-spoon",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coverageDirectory": "coverage",
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalstore2025/verbose-spoon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/digitalstore2025/verbose-spoon/issues"
+  },
+  "homepage": "https://github.com/digitalstore2025/verbose-spoon#readme",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
